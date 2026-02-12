@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026 愛天使園遊會 - 第十一屆臺北市身心障礙親子園遊會</title>
-    <meta name="description" content="2026 愛天使園遊會將於母親節在花博爭艷館隆重登場。結合 AI 科技互動、百攤闖關遊戲與才藝表演，打造普特共融的暖心親子時光。">
+    <title>2026 愛天使愛心園遊會 - 第十一屆臺北市身心障礙親子園遊會</title>
+    <meta name="description" content="2026 愛天使愛心園遊會 (Love Angel Charity Fest 2026) 將於母親節在花博爭艷館隆重登場。結合 AI 科技互動、百攤闖關遊戲與才藝表演，打造普特共融的暖心親子時光。">
     
     <!-- AI SEO: JSON-LD Structured Data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Event",
-      "name": "2026 愛天使園遊會 - 第十一屆臺北市身心障礙親子園遊會",
+      "name": "2026 愛天使愛心園遊會",
       "startDate": "2026-05-10T09:00",
       "endDate": "2026-05-10T17:00",
       "location": {
@@ -76,9 +76,9 @@
             border: 1px solid rgba(255, 255, 255, 0.15);
         }
 
-        /* 深度暖棕色 - 確保與上下白色區塊有明顯區隔且視覺和諧 */
-        .bg-warm-contrast {
-            background-color: #421a1a; 
+        /* 活力、希望的黃色調底色 */
+        .bg-vibrant-hope {
+            background-color: #fbbf24; /* Amber-400 */
         }
     </style>
 </head>
@@ -93,16 +93,16 @@
                 <div class="bg-pink-600 text-white p-2 rounded-full shadow-md">
                     <i data-lucide="heart" fill="currentColor"></i>
                 </div>
-                <span class="text-2xl font-bold tracking-wider text-pink-600 md:text-white transition-colors" id="nav-logo-text">
-                    2026 愛天使
+                <span class="text-xl md:text-2xl font-bold tracking-wider text-pink-600 md:text-white transition-colors" id="nav-logo-text">
+                    2026 愛天使愛心園遊會
                 </span>
             </a>
 
             <div class="hidden md:flex gap-6 items-center">
-                <a href="#about" class="nav-link font-medium text-white/95 hover:text-white focus-ring px-2 py-1 rounded">關於活動</a>
-                <a href="#highlights" class="nav-link font-medium text-white/95 hover:text-white focus-ring px-2 py-1 rounded">精彩亮點</a>
-                <a href="#gallery" class="nav-link font-medium text-white/95 hover:text-white focus-ring px-2 py-1 rounded">活動回顧</a>
-                <a href="#news" class="nav-link font-medium text-white/95 hover:text-white focus-ring px-2 py-1 rounded">最新消息</a>
+                <a href="#about" class="nav-link font-medium text-white/95 hover:text-pink-600 focus-ring px-2 py-1 rounded transition-colors">關於活動</a>
+                <a href="#highlights" class="nav-link font-medium text-white/95 hover:text-pink-600 focus-ring px-2 py-1 rounded transition-colors">精彩亮點</a>
+                <a href="#gallery" class="nav-link font-medium text-white/95 hover:text-pink-600 focus-ring px-2 py-1 rounded transition-colors">活動回顧</a>
+                <a href="#news" class="nav-link font-medium text-white/95 hover:text-pink-600 focus-ring px-2 py-1 rounded transition-colors">最新消息</a>
                 <a href="#join" class="nav-link font-bold text-white bg-pink-600 hover:bg-pink-700 focus-ring px-6 py-2 rounded-full transition-all shadow-lg">立即報名</a>
             </div>
 
@@ -112,25 +112,25 @@
         </div>
 
         <!-- 手機選單 -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-xl absolute w-full left-0 p-4 space-y-4">
-            <a href="#about" class="block text-gray-600 font-bold py-2 border-b border-gray-50">關於活動</a>
-            <a href="#highlights" class="block text-gray-600 font-bold py-2 border-b border-gray-50">精彩亮點</a>
-            <a href="#gallery" class="block text-gray-600 font-bold py-2 border-b border-gray-50">活動回顧</a>
-            <a href="#news" class="block text-gray-600 font-bold py-2 border-b border-gray-50">最新消息</a>
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-xl absolute w-full left-0 p-4 space-y-4 border-t border-gray-100">
+            <a href="#about" class="block text-gray-600 hover:text-pink-600 font-bold py-2 border-b border-gray-50">關於活動</a>
+            <a href="#highlights" class="block text-gray-600 hover:text-pink-600 font-bold py-2 border-b border-gray-50">精彩亮點</a>
+            <a href="#gallery" class="block text-gray-600 hover:text-pink-600 font-bold py-2 border-b border-gray-50">活動回顧</a>
+            <a href="#news" class="block text-gray-600 hover:text-pink-600 font-bold py-2 border-b border-gray-50">最新消息</a>
             <a href="#join" class="block text-pink-600 font-bold py-2">立即報名</a>
         </div>
     </nav>
 
     <main id="main-content">
         <!-- Hero Section -->
-        <header id="home" class="relative h-[650px] flex items-center justify-center overflow-hidden hero-gradient">
+        <header id="home" class="relative min-h-[650px] flex items-center justify-center overflow-hidden hero-gradient">
             <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]" aria-hidden="true"></div>
             
-            <div class="container mx-auto px-4 text-center relative z-10 pt-16">
+            <div class="container mx-auto px-4 text-center relative z-10 pt-32 pb-16 md:pt-24">
                 <div class="inline-block bg-white/95 backdrop-blur-sm px-6 py-2 rounded-full text-pink-700 font-bold mb-6 shadow-sm">
                     第十一屆 臺北市身心障礙親子園遊會
                 </div>
-                <h1 class="text-5xl md:text-7xl font-black text-white mb-6 drop-shadow-lg leading-tight">
+                <h1 class="text-4xl md:text-7xl font-black text-white mb-6 drop-shadow-lg leading-tight">
                     讓愛發光 讓夢溫暖
                 </h1>
                 <p class="text-xl md:text-2xl text-white/95 mb-10 font-medium max-w-2xl mx-auto drop-shadow-sm leading-relaxed">
@@ -172,7 +172,7 @@
             </div>
         </header>
 
-        <!-- About Section -->
+        <!-- 關於活動 -->
         <section id="about" class="py-24 bg-white">
             <div class="container mx-auto px-4">
                 <div class="flex flex-col md:flex-row items-center gap-16">
@@ -188,7 +188,7 @@
                             宗旨：以孩子為本
                         </h2>
                         <div class="space-y-6 text-lg text-gray-700 leading-relaxed">
-                            <p>「愛天使園遊會」已邁入第十一屆。我們選在母親節這天舉辦，是為了致敬最辛勞的特教家長，並透過大型活動讓大眾看見特教孩子們的無限潛能。</p>
+                            <p>「2026 愛天使愛心園遊會」已邁入第十一屆。我們選在母親節這天舉辦，是為了致敬最辛勞的特教家長，並透過大型活動讓大眾看見特教孩子們的無限潛能。</p>
                             <p>今年的活動重點在於<strong class="text-pink-600">「普特融合」</strong>。預計將吸引超過 120 所學校、4000 位親師生參與，共同營造零歧視、全包容的教育環境。</p>
                         </div>
                     </div>
@@ -196,52 +196,58 @@
             </div>
         </section>
 
-        <!-- Highlights Section (Warm Contrast) -->
-        <section id="highlights" class="py-24 bg-warm-contrast text-white relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl -mr-48 -mt-48" aria-hidden="true"></div>
+        <!-- Highlights Section (Vibrant Yellow Theme) -->
+        <section id="highlights" class="py-24 bg-vibrant-hope text-amber-950 relative overflow-hidden" aria-labelledby="highlights-heading">
+            <!-- 裝飾性背景元素 -->
+            <div class="absolute top-0 right-0 w-96 h-96 bg-white/20 rounded-full blur-3xl -mr-48 -mt-48" aria-hidden="true"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-orange-500/10 rounded-full blur-3xl -ml-48 -mb-48" aria-hidden="true"></div>
+
             <div class="container mx-auto px-4 text-center relative z-10">
-                <h2 class="text-4xl md:text-5xl font-black mb-4">精彩亮點預告</h2>
-                <div class="w-24 h-1.5 bg-gradient-to-r from-pink-500 to-rose-400 mx-auto mb-8 rounded-full"></div>
-                <p class="text-pink-100/70 text-xl max-w-2xl mx-auto mb-16 font-medium">科技、運動與才藝的完美結合，帶給孩子不一樣的慶典！</p>
+                <h2 id="highlights-heading" class="text-4xl md:text-5xl font-black mb-4">精彩亮點預告</h2>
+                <div class="w-24 h-1.5 bg-pink-500 mx-auto mb-8 rounded-full"></div>
+                <p class="text-amber-900/80 text-xl max-w-2xl mx-auto mb-16 font-medium">充滿希望與歡笑的活動安排，讓愛在這裡發光！</p>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <article class="glass-card rounded-3xl overflow-hidden group hover:bg-white/15 transition-all duration-500 text-left flex flex-col border border-white/10">
-                        <div class="h-56 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1531746790731-6c087fdec69a?auto=format&fit=crop&q=80&w=600" alt="AI機器人體驗" class="w-full h-full object-cover">
+                    <article class="bg-white rounded-3xl overflow-hidden group hover:shadow-2xl transition-all duration-500 text-left flex flex-col shadow-xl">
+                        <div class="h-56 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1531746790731-6c087fdec69a?auto=format&fit=crop&q=80&w=600" alt="AI機器人體驗" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute top-4 left-4 bg-pink-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">AI 科技</div>
                         </div>
-                        <div class="p-8 flex-1">
-                            <h3 class="text-2xl font-bold mb-4 text-white">AI 機器人互動區</h3>
-                            <p class="text-pink-50/70 leading-relaxed mb-6">特別邀請啟聰學校科技團隊，讓特教孩子透過圖像與簡單手勢操作機器人進行投籃，感受科技帶來的無限可能。</p>
-                            <span class="inline-flex items-center font-bold text-pink-300">查看詳情 <i data-lucide="arrow-right" class="ml-2" size="18"></i></span>
-                        </div>
-                    </article>
-
-                    <article class="glass-card rounded-3xl overflow-hidden group hover:bg-white/15 transition-all duration-500 text-left flex flex-col border border-white/10">
-                        <div class="h-56 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1530103043960-ef38714abb15?auto=format&fit=crop&q=80&w=600" alt="氣球排球" class="w-full h-full object-cover">
-                        </div>
-                        <div class="p-8 flex-1">
-                            <h3 class="text-2xl font-bold mb-4 text-white">氣球排球挑戰賽</h3>
-                            <p class="text-pink-50/70 leading-relaxed mb-6">源自日本，輕盈緩慢的氣球排球，打破體能限制。讓每一位孩子都能在擊球瞬間獲得滿滿的自信。</p>
-                            <span class="inline-flex items-center font-bold text-blue-300">查看詳情 <i data-lucide="arrow-right" class="ml-2" size="18"></i></span>
+                        <div class="p-8 flex-1 flex flex-col">
+                            <h3 class="text-2xl font-bold mb-4 text-gray-900 group-hover:text-pink-600 transition-colors">AI 機器人互動區</h3>
+                            <p class="text-gray-600 leading-relaxed mb-6 flex-1">邀請啟聰學校科技團隊，讓特教孩子透過簡單輔助操作機器人投籃，感受科技帶來的自信力量。</p>
+                            <span class="inline-flex items-center font-bold text-pink-600 group-hover:translate-x-1 transition-transform">查看詳情 <i data-lucide="arrow-right" class="ml-2" size="18"></i></span>
                         </div>
                     </article>
 
-                    <article class="glass-card rounded-3xl overflow-hidden group hover:bg-white/15 transition-all duration-500 text-left flex flex-col border border-white/10">
-                        <div class="h-56 overflow-hidden">
-                            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=600" alt="才藝大賞" class="w-full h-full object-cover">
+                    <article class="bg-white rounded-3xl overflow-hidden group hover:shadow-2xl transition-all duration-500 text-left flex flex-col shadow-xl">
+                        <div class="h-56 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1530103043960-ef38714abb15?auto=format&fit=crop&q=80&w=600" alt="氣球排球" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute top-4 left-4 bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">共融運動</div>
                         </div>
-                        <div class="p-8 flex-1">
-                            <h3 class="text-2xl font-bold mb-4 text-white">特教才藝大賞</h3>
-                            <p class="text-pink-50/70 leading-relaxed mb-6">鼓陣的震撼、輪椅舞的優美。這是屬於天使們的星光大道，邀請您一起為他們的精彩演出喝采。</p>
-                            <span class="inline-flex items-center font-bold text-yellow-300">查看詳情 <i data-lucide="arrow-right" class="ml-2" size="18"></i></span>
+                        <div class="p-8 flex-1 flex flex-col">
+                            <h3 class="text-2xl font-bold mb-4 text-gray-900 group-hover:text-pink-600 transition-colors">氣球排球挑戰賽</h3>
+                            <p class="text-gray-600 leading-relaxed mb-6 flex-1">輕盈緩慢的氣球排球，不分障礙程度與體能，讓每一位孩子都能享受運動流汗後的成就感。</p>
+                            <span class="inline-flex items-center font-bold text-blue-600 group-hover:translate-x-1 transition-transform">查看詳情 <i data-lucide="arrow-right" class="ml-2" size="18"></i></span>
+                        </div>
+                    </article>
+
+                    <article class="bg-white rounded-3xl overflow-hidden group hover:shadow-2xl transition-all duration-500 text-left flex flex-col shadow-xl">
+                        <div class="h-56 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=600" alt="才藝大賞" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute top-4 left-4 bg-amber-600 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest">才藝舞台</div>
+                        </div>
+                        <div class="p-8 flex-1 flex flex-col">
+                            <h3 class="text-2xl font-bold mb-4 text-gray-900 group-hover:text-pink-600 transition-colors">特教才藝大賞</h3>
+                            <p class="text-gray-600 leading-relaxed mb-6 flex-1">鼓陣的震撼與舞蹈的優美。這是屬於天使們的星光大道，邀請您一起見證孩子們揮灑才華的瞬間。</p>
+                            <span class="inline-flex items-center font-bold text-amber-600 group-hover:translate-x-1 transition-transform">查看詳情 <i data-lucide="arrow-right" class="ml-2" size="18"></i></span>
                         </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <!-- Gallery Section -->
+        <!-- 活動回顧 -->
         <section id="gallery" class="py-24 bg-white">
             <div class="container mx-auto px-4 text-center">
                 <h2 class="text-4xl font-black text-gray-900 mb-12">歷屆精彩回顧</h2>
@@ -254,38 +260,30 @@
             </div>
         </section>
 
-        <!-- 最新消息區塊 (已更新連結至 News/20260212.html) -->
+        <!-- 最新消息 -->
         <section id="news" class="py-24 bg-gray-50">
             <div class="container mx-auto px-4">
                 <div class="flex flex-col md:flex-row justify-between items-end mb-12 border-b-2 border-gray-200 pb-6">
                     <div>
                         <h2 class="text-4xl font-black text-gray-900">最新消息</h2>
-                        <p class="text-gray-500 mt-2 text-lg">隨時掌握愛天使園遊會第一手資訊</p>
+                        <p class="text-gray-500 mt-2 text-lg">隨時掌握愛天使愛心園遊會第一手資訊</p>
                     </div>
-                    <a href="News/20260212.html" class="text-pink-600 font-bold hover:underline flex items-center mt-4 md:mt-0 focus-ring rounded">
+                    <a href="#" class="text-pink-600 font-bold hover:underline flex items-center mt-4 md:mt-0 focus-ring rounded">
                         查看全部公告 <i data-lucide="chevron-right"></i>
                     </a>
                 </div>
 
                 <div class="divide-y divide-gray-200">
-                    <!-- 消息 1 -->
-                    <a href="News/20260212.html" class="py-6 flex flex-col md:flex-row md:items-center gap-4 group cursor-pointer focus-ring rounded p-2 transition-all">
+                    <div class="py-6 flex flex-col md:flex-row md:items-center gap-4 group cursor-pointer focus-ring rounded p-2 transition-all">
                         <time class="bg-pink-100 text-pink-700 px-4 py-1 rounded-full font-mono font-bold">2026.03.15</time>
-                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-600 transition-colors">【公告】第十一屆愛天使攤位招募正式開跑！</h3>
+                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-600 transition-colors">【公告】第十一屆愛天使愛心園遊會攤位招募正式開跑！</h3>
                         <i data-lucide="arrow-right" class="ml-auto text-gray-300 group-hover:text-pink-600"></i>
-                    </a>
-                    <!-- 消息 2 -->
-                    <a href="News/20260212.html" class="py-6 flex flex-col md:flex-row md:items-center gap-4 group cursor-pointer focus-ring rounded p-2 transition-all">
+                    </div>
+                    <div class="py-6 flex flex-col md:flex-row md:items-center gap-4 group cursor-pointer focus-ring rounded p-2 transition-all">
                         <time class="bg-pink-100 text-pink-700 px-4 py-1 rounded-full font-mono font-bold">2026.02.28</time>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-600 transition-colors">【快訊】今年新增「AI 機器人互動區」，歡迎各界蒞臨體驗。</h3>
                         <i data-lucide="arrow-right" class="ml-auto text-gray-300 group-hover:text-pink-600"></i>
-                    </a>
-                    <!-- 消息 3 -->
-                    <a href="News/20260212.html" class="py-6 flex flex-col md:flex-row md:items-center gap-4 group cursor-pointer focus-ring rounded p-2 transition-all">
-                        <time class="bg-pink-100 text-pink-700 px-4 py-1 rounded-full font-mono font-bold">2026.01.10</time>
-                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-600 transition-colors">【活動】小小志工培訓營：學習如何與特教天使暖心互動。</h3>
-                        <i data-lucide="arrow-right" class="ml-auto text-gray-300 group-hover:text-pink-600"></i>
-                    </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -296,9 +294,6 @@
             <div class="container mx-auto px-4 text-center relative z-10">
                 <i data-lucide="heart" size="64" class="mx-auto mb-8 text-pink-200" fill="currentColor"></i>
                 <h2 class="text-4xl md:text-5xl font-black mb-8 leading-tight">您的參與，是天使們最大的鼓勵</h2>
-                <p class="text-xl text-pink-50 mb-12 max-w-3xl mx-auto leading-relaxed font-medium">
-                    無論是報名參加闖關、支持攤位運作、或投入志工行列，您的每一分心力都能讓孩子感受社會的溫暖。
-                </p>
                 <div class="flex flex-col sm:flex-row gap-6 justify-center">
                     <button class="bg-white text-pink-600 px-12 py-5 rounded-full font-black text-xl hover:bg-pink-50 transition-all shadow-2xl focus-ring">
                         立即報名參加
@@ -313,36 +308,31 @@
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-400 py-20">
-        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12 text-sm">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-12 text-sm text-center md:text-left">
             <div class="md:col-span-2">
-                <div class="flex items-center gap-3 text-white text-2xl font-black mb-6">
+                <div class="flex items-center justify-center md:justify-start gap-3 text-white text-2xl font-black mb-6">
                     <i data-lucide="heart" class="text-pink-500" fill="currentColor"></i>
-                    2026 愛天使園遊會
+                    2026 愛天使愛心園遊會
                 </div>
-                <p class="max-w-sm text-lg leading-relaxed mb-6">致力於推動特教融合，看見每個生命的獨特與美好。</p>
-                <div class="flex gap-4">
-                    <a href="#" class="bg-gray-800 p-3 rounded-full hover:bg-pink-600 hover:text-white transition-all focus-ring" aria-label="Facebook"><i data-lucide="facebook"></i></a>
-                    <a href="#" class="bg-gray-800 p-3 rounded-full hover:bg-pink-600 hover:text-white transition-all focus-ring" aria-label="Youtube"><i data-lucide="youtube"></i></a>
-                </div>
+                <p class="max-w-sm mx-auto md:mx-0 text-lg leading-relaxed mb-6">Love Angel Charity Fest 2026. 致力於推動特教融合，看見每個生命的獨特與美好。</p>
             </div>
             <div>
-                <h4 class="text-white font-bold text-lg mb-6 uppercase tracking-widest border-b border-pink-600 inline-block">聯絡資訊</h4>
+                <h4 class="text-white font-bold text-lg mb-6 border-b border-pink-600 inline-block">聯絡資訊</h4>
                 <ul class="space-y-4">
-                    <li class="flex items-center gap-3"><i data-lucide="home" size="18"></i> 臺北市國小家長聯合會</li>
-                    <li class="flex items-center gap-3"><i data-lucide="phone" size="18"></i> (02) 2735-1234</li>
-                    <li class="flex items-center gap-3"><i data-lucide="mail" size="18"></i> contact@loveangel.tw</li>
+                    <li>臺北市國小家長聯合會</li>
+                    <li>(02) 2735-1234</li>
+                    <li>contact@loveangel.tw</li>
                 </ul>
             </div>
             <div>
-                <h4 class="text-white font-bold text-lg mb-6 uppercase tracking-widest border-b border-pink-600 inline-block">指導單位</h4>
+                <h4 class="text-white font-bold text-lg mb-6 border-b border-pink-600 inline-block">指導單位</h4>
                 <p class="leading-loose">
                     臺北市政府教育局<br>
-                    臺北市各級學校家長會聯合會<br>
-                    民間公益公益贊助單位
+                    臺北市各級學校家長會聯合會
                 </p>
             </div>
         </div>
-        <div class="container mx-auto px-4 mt-20 pt-8 border-t border-gray-800 text-center text-xs text-gray-500 uppercase tracking-widest">
+        <div class="container mx-auto px-4 mt-20 pt-8 border-t border-gray-800 text-center text-xs text-gray-500">
             &copy; 2026 臺北市國小學生家長會聯合會. All rights reserved.
         </div>
     </footer>
