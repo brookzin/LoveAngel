@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO: 請修改為該則消息的標題 -->
+    <title>消息標題 - 2026 愛天使園遊會</title>
+    <meta name="description" content="消息摘要內容，約 150 字內，幫助搜尋引擎與 AI 了解本篇消息重點。">
+    
+    <!-- AI SEO: NewsArticle Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "在此輸入消息標題",
+      "datePublished": "2026-03-15T09:00:00+08:00",
+      "author": {
+        "@type": "Organization",
+        "name": "臺北市國小學生家長會聯合會"
+      },
+      "image": [
+        "https://example.com/your-news-image.jpg"
+      ]
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; scroll-behavior: smooth; }
+        .focus-ring:focus { outline: none; box-shadow: 0 0 0 4px rgba(236, 72, 153, 0.5); }
+        .hero-mini { background: linear-gradient(135deg, #f472b6 0%, #fda4af 100%); }
+        .article-content p { margin-bottom: 1.5rem; line-height: 1.8; color: #374151; font-size: 1.125rem; }
+        .article-content h2 { margin-top: 2.5rem; margin-bottom: 1rem; font-weight: 900; color: #111827; font-size: 1.5rem; border-left: 6px solid #db2777; padding-left: 1rem; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- A11Y: Skip to content -->
+    <a href="#article-main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-pink-600 focus:text-white focus:p-2 rounded">跳至消息主要內容</a>
+
+    <!-- Navigation (連結至上一層 index.html) -->
+    <nav id="navbar" class="fixed w-full z-50 py-4 bg-white shadow-md" aria-label="主選單">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="../index.html" class="flex items-center gap-2 focus-ring rounded-lg p-1">
+                <div class="bg-pink-600 text-white p-2 rounded-full">
+                    <i data-lucide="heart" fill="currentColor"></i>
+                </div>
+                <span class="text-2xl font-bold tracking-wider text-pink-600">
+                    2026 愛天使
+                </span>
+            </a>
+            <div class="hidden md:flex gap-6 items-center">
+                <a href="../index.html#about" class="text-gray-600 font-medium hover:text-pink-600 px-2 py-1">關於活動</a>
+                <a href="../index.html#highlights" class="text-gray-600 font-medium hover:text-pink-600 px-2 py-1">精彩亮點</a>
+                <a href="../index.html#news" class="text-pink-600 font-bold border-b-2 border-pink-600 px-2 py-1">最新消息</a>
+                <a href="../index.html#join" class="bg-pink-600 text-white font-bold px-6 py-2 rounded-full hover:bg-pink-700 transition-all shadow-md">返回報名</a>
+            </div>
+            <button class="md:hidden text-pink-600 p-2" id="menu-btn" aria-label="開啟選單">
+                <i data-lucide="menu" size="28"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="pt-32 pb-16 hero-mini text-white">
+        <div class="container mx-auto px-4 max-w-4xl text-center">
+            <div class="inline-flex items-center gap-2 bg-white/20 px-4 py-1 rounded-full text-sm font-bold mb-4">
+                <i data-lucide="tag" size="14"></i> 活動公告
+            </div>
+            <!-- 修改點：消息標題 -->
+            <h1 class="text-3xl md:text-5xl font-black mb-6 leading-tight">在此輸入消息標題文字</h1>
+            <div class="flex items-center justify-center gap-6 text-pink-50 font-medium">
+                <span class="flex items-center gap-2"><i data-lucide="calendar" size="18"></i> 2026.03.15</span>
+                <span class="flex items-center gap-2"><i data-lucide="user" size="18"></i> 管理員發布</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="article-main" class="py-16">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <!-- Breadcrumb (連結至上一層 index.html) -->
+            <nav class="flex text-gray-500 text-sm mb-12" aria-label="麵包屑導航">
+                <ol class="flex list-none p-0">
+                    <li class="flex items-center">
+                        <a href="../index.html" class="hover:text-pink-600">首頁</a>
+                        <i data-lucide="chevron-right" size="14" class="mx-2"></i>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="../index.html#news" class="hover:text-pink-600">最新消息</a>
+                        <i data-lucide="chevron-right" size="14" class="mx-2"></i>
+                    </li>
+                    <li class="text-pink-600 font-bold" aria-current="page">消息正文</li>
+                </ol>
+            </nav>
+
+            <!-- Article Body -->
+            <article class="bg-white rounded-3xl p-8 md:p-16 shadow-sm border border-gray-100">
+                <!-- 修改點：主要圖片 -->
+                <figure class="mb-12">
+                    <img src="https://images.unsplash.com/photo-1531206715517-5ca94e15afff?auto=format&fit=crop&q=80&w=1200" 
+                         alt="消息封面描述文字" 
+                         class="rounded-2xl w-full shadow-lg">
+                    <figcaption class="text-center text-gray-400 text-sm mt-4">圖：2026 愛天使活動籌備現場紀錄</figcaption>
+                </figure>
+
+                <!-- 修改點：內文開始 -->
+                <div class="article-content">
+                    <p class="font-bold text-xl text-gray-800">
+                        這裡是消息的引言或重點摘要。
+                    </p>
+                    
+                    <h2>標題一：子議題名稱</h2>
+                    <p>
+                        這裡是詳細的內容描述。當您將此檔案存放在 News 資料夾下時，內部的連結將正確指回根目錄的 index.html。
+                    </p>
+                </div>
+
+                <!-- 分享與返回連結 -->
+                <div class="mt-16 pt-8 border-t border-gray-100 flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div class="flex items-center gap-4">
+                        <span class="font-bold text-gray-500">分享此消息：</span>
+                        <button class="bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition-colors focus-ring" aria-label="分享至 Facebook"><i data-lucide="facebook" size="20"></i></button>
+                        <button class="bg-green-500 text-white p-2 rounded-full hover:bg-green-600 transition-colors focus-ring" aria-label="分享至 Line"><i data-lucide="message-circle" size="20"></i></button>
+                    </div>
+                    <!-- 回到首頁的新聞區塊 -->
+                    <a href="../index.html#news" class="flex items-center gap-2 text-pink-600 font-bold hover:gap-4 transition-all focus-ring rounded p-1">
+                        <i data-lucide="arrow-left"></i> 回到消息列表
+                    </a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex items-center justify-center gap-2 text-white text-xl font-black mb-6">
+                <i data-lucide="heart" class="text-pink-500" fill="currentColor"></i>
+                2026 愛天使園遊會
+            </div>
+            <p class="mb-8">致力於推動特教融合，看見每個生命的獨特與美好。</p>
+            <div class="container mx-auto px-4 pt-8 border-t border-gray-800 text-center text-sm">
+                &copy; 2026 臺北市國小學生家長會聯合會. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        lucide.createIcons();
+        const menuBtn = document.getElementById('menu-btn');
+        menuBtn.addEventListener('click', () => {
+            // 手機版選單點擊後同樣回上一層首頁
+            window.location.href = '../index.html'; 
+        });
+    </script>
+</body>
+</html>
