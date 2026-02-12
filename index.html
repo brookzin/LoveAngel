@@ -126,7 +126,6 @@
         <header id="home" class="relative min-h-[650px] flex items-center justify-center overflow-hidden hero-gradient">
             <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]" aria-hidden="true"></div>
             
-            <!-- 修正：增加 pt-32 防止手機版與導覽列重疊 -->
             <div class="container mx-auto px-4 text-center relative z-10 pt-32 pb-16 md:pt-24">
                 <div class="inline-block bg-white/95 backdrop-blur-sm px-6 py-2 rounded-full text-pink-700 font-bold mb-6 shadow-sm">
                     第十一屆 臺北市身心障礙親子園遊會
@@ -189,9 +188,32 @@
                             宗旨：以孩子為本
                         </h2>
                         <div class="space-y-6 text-lg text-gray-700 leading-relaxed">
-                            <p>「2026 愛天使愛心園遊會」已邁入第十一屆。我們選在母親節這天舉辦，不僅是為了致敬最辛勞的特教家長，更希望透過大型活動讓大眾看見特教孩子們的無限潛能。</p>
+                            <p>「2026 愛天使愛心園遊會」已邁入第十一屆。我們選在母親節這天舉辦，是為了致敬最辛勞的特教家長，並透過大型活動讓大眾看見特教孩子們的無限潛能。</p>
                             <p>今年的活動重點在於<strong class="text-pink-600">「普特融合」</strong>。預計將吸引超過 120 所學校、4000 位親師生參與，共同營造零歧視、全包容的教育環境。</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 活動宣傳影片區塊 -->
+        <section id="video-section" class="py-24 bg-gray-50" aria-labelledby="video-heading">
+            <div class="container mx-auto px-4 text-center">
+                <h2 id="video-heading" class="text-4xl font-black text-gray-900 mb-4">活動宣傳影片</h2>
+                <div class="w-24 h-1.5 bg-pink-500 mx-auto mb-8 rounded-full"></div>
+                <p class="text-gray-600 text-xl max-w-2xl mx-auto mb-12 font-medium">跟著市長一起來看看愛天使愛心園遊會的溫馨時刻！</p>
+                
+                <!-- 響應式影片容器 16:9 -->
+                <div class="max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-2xl border-8 border-white">
+                    <div class="aspect-video">
+                        <iframe 
+                            class="w-full h-full" 
+                            src="https://www.youtube.com/embed/gNc_B32JASw" 
+                            title="2026 愛天使愛心園遊會 宣傳影片" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
             </div>
@@ -273,7 +295,6 @@
                 </div>
 
                 <div class="divide-y divide-gray-200">
-                    <!-- 修正：放回暫時連結 News/20260212.html -->
                     <div class="py-6 flex flex-col md:flex-row md:items-center gap-4 group cursor-pointer focus-ring rounded p-2 transition-all">
                         <time class="bg-pink-100 text-pink-700 px-4 py-1 rounded-full font-mono font-bold">2026.03.15</time>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-600 transition-colors">
@@ -285,13 +306,6 @@
                         <time class="bg-pink-100 text-pink-700 px-4 py-1 rounded-full font-mono font-bold">2026.02.28</time>
                         <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-600 transition-colors">
                             <a href="News/20260212.html" class="focus:outline-none">【快訊】今年新增「AI 機器人互動區」，歡迎各界蒞臨體驗。</a>
-                        </h3>
-                        <i data-lucide="arrow-right" class="ml-auto text-gray-300 group-hover:text-pink-600"></i>
-                    </div>
-                    <div class="py-6 flex flex-col md:flex-row md:items-center gap-4 group cursor-pointer focus-ring rounded p-2 transition-all">
-                        <time class="bg-pink-100 text-pink-700 px-4 py-1 rounded-full font-mono font-bold">2026.01.10</time>
-                        <h3 class="text-xl font-bold text-gray-800 group-hover:text-pink-600 transition-colors">
-                            <a href="News/20260212.html" class="focus:outline-none">【活動】小小志工培訓營：學習如何與特教天使暖心互動。</a>
                         </h3>
                         <i data-lucide="arrow-right" class="ml-auto text-gray-300 group-hover:text-pink-600"></i>
                     </div>
@@ -366,7 +380,6 @@
                 nav.classList.remove('bg-transparent', 'py-4');
                 logoText.classList.add('text-pink-600');
                 logoText.classList.remove('md:text-white');
-                // 滾動後 hover 已透過 HTML 結構中的 hover:text-pink-600 處理
                 navLinks.forEach(link => { link.classList.add('text-gray-600'); link.classList.remove('text-white/95'); });
                 menuBtn.classList.remove('md:text-white');
                 menuBtn.classList.add('text-pink-600');
